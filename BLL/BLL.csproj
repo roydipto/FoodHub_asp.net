@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A269755F-D31E-45E8-A71B-9FD6C7C9269E}</ProjectGuid>
+    <ProjectGuid>{B63B985F-59EF-433F-A20D-BE8223AC7562}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BLL</RootNamespace>
@@ -46,22 +46,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="DTOs\DeliveryManDTO.cs" />
-    <Compile Include="DTOs\Menu_ItemsDTO.cs" />
-    <Compile Include="DTOs\Order_ItemsDTO.cs" />
-    <Compile Include="DTOs\RestaurantDTO.cs" />
+    <Compile Include="DTOs\CustomerDTO.cs" />
+    <Compile Include="DTOs\MenuIteamDTO.cs" />
+    <Compile Include="DTOs\MenuOrderDTO.cs" />
+    <Compile Include="DTOs\OrderDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\Menu_ItemService.cs" />
-    <Compile Include="Services\Order_ItemsService.cs" />
-    <Compile Include="Services\RestaurantService.cs" />
+    <Compile Include="Services\MenuIteamService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
-      <Project>{e0694546-64e4-41f1-906c-0298a2a6435e}</Project>
+      <Project>{f4cfc626-28d0-4309-9b58-cbb23ae93681}</Project>
       <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>

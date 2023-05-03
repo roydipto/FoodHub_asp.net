@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,14 +8,16 @@ using System.Threading.Tasks;
 
 namespace BLL.DTOs
 {
-    public class RestaurantDTO
+    public class MenuIteamDTO
     {
+        public int Id { get; set; }
         [Required]
-        public int UN { get; set; }
+        public string IteamName { get; set; }
         [Required]
-        public string Address { get; set; }
+        public int Price { get; set; }
         [Required]
-        public string Phone { get; set; }
+        public int Qty { get; set; }
 
+        
     }
 }
