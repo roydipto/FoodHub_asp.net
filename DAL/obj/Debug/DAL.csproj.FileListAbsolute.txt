@@ -1,0 +1,14 @@
+E:\FoodHub\DAL\bin\Debug\DAL.dll.config
+E:\FoodHub\DAL\bin\Debug\DAL.dll
+E:\FoodHub\DAL\bin\Debug\DAL.pdb
+E:\FoodHub\DAL\bin\Debug\EntityFramework.dll
+E:\FoodHub\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\FoodHub\DAL\bin\Debug\EntityFramework.xml
+E:\FoodHub\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\FoodHub\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\FoodHub\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\FoodHub\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\FoodHub\DAL\obj\Debug\DAL.dll
+E:\FoodHub\DAL\obj\Debug\DAL.pdb
+E:\FoodHub\DAL\obj\Debug\DAL.Migrations.initDB.resources
+E:\FoodHub\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
