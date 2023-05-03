@@ -7,12 +7,19 @@ using System.Threading.Tasks;
 
 namespace BLL.DTOs
 {
-    public class Order_ItemsDTO
+    public class CustomerDTO
     {
-        public int Id { get; set; }
+      
+        public string Uname { get; set; }
         [Required]
+        [StringLength(20)]
+        public string Password { get; set; }
+        [Required]
+        [StringLength(20)]
         public string Name { get; set; }
         [Required]
-        public string Quantity { get; set; }
+
+
+        public string Type { get; set; }
     }
 }
